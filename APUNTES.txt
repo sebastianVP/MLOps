@@ -1,0 +1,24 @@
+# LECCIONES SOBRE LA CREACION DE UNA APLICACION WEB DE IA GENERATIVA 2023
+ FUENTE : https://towardsdatascience.com/from-data-scientist-to-ai-developer-lessons-building-an-generative-ai-web-app-in-2023-95959a00a474
+
+- Utiliza Next.js, increiblemente el blog me dice que React tiene limitaciones.
+- Plantilla en linea Vercel.
+- Optar por TailWind CSS en lugar de Bootstrap para diseñar. (Usar Flowbite React)
+- Importancia de los tipos explicitos.
+- Utiliza FastAPI en lugar de Flask para el backend y defina rigurosamente el modelo de respuesta.
+- FastAPI, beneficios:
+	- Documentacion API generada automaticamente.
+        - Es mas facil escribir codigo.
+        - Mayor rendimiento.
+	- FastAPI se basa en Pydantic.
+- Usa TypeScript en lugar de JavaScript, ventaja puedes generar automaticamente el codigo de cliente TypeSript utilizando su especificacion API.
+- Proveedor de nube de GPU para alojar su modelo. MODAL
+- Utilizar AWS Lambda para la implementacion de backend y Vercel para la interfaz.
+  -  AMAZON AWS EC2: Mas complicado de configura, al ser una instancia dedicada siempre activa, seria mucho mas costosa y dificil de escalar.
+  -  AMAZON AWS LAMBDA: el link que debo revisar: https://www.youtube.com/watch?v=VYk3lwZbHBU 
+  -  VERCEL : https://vercel.com/guides/deploying-react-with-vercel
+- Utilizar creadores de sitios sin codigo como Webflow o Framer para crear rapidamente paginas de destino.
+- Firebase +STRIPE para autenticacion de usuarios y pagos.
+  - 1 link: https://www.youtube.com/watch?v=P0Udy2Gi7n8
+  - 2 link: https://www.youtube.com/watch?v=UhrmPH3TLus
+- SENTRY herramienta para monitorear el rendimiento y rastrear errores.
